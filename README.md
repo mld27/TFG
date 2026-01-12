@@ -1,10 +1,10 @@
 **TFG – Respiratory Trace Analysis for DIBH Treatments**
 
-Este repositorio contiene el código desarrollado y utilizado para el análisis de trazas respiratorias adquiridas durante tratamientos de Deep Inspiration Breath Hold (DIBH) en el contexto del Trabajo de Fin de Grado (TFG).
+Este repositorio contiene el código desarrollado y utilizado para el análisis de trazas respiratorias adquiridas durante tratamientos de DIBH en el contexto del TFG.
 
 El repositorio se compone principalmente de dos notebooks:
 
-📁 TFG-Raw_Data_Analyser.ipynb
+📁 _TFG-Raw_Data_Analyser.ipynb_
 
 Este notebook se encarga del procesado inicial de los datos brutos procedentes de las máquinas de tratamiento:
 
@@ -16,7 +16,7 @@ Construcción de líneas temporales coherentes para cada paciente y sesión.
 
 Este módulo fue desarrollado previamente al TFG, pero ha sido utilizado y adaptado como base fundamental para el análisis posterior presentado en el trabajo.
 
-📁 TFG-Parameter_Evaluator.ipynb
+📁 _TFG-Parameter_Evaluator.ipynb_
 
 Este notebook ha sido desarrollado íntegramente desde cero para el TFG y constituye el núcleo del análisis cuantitativo:
 
@@ -28,7 +28,7 @@ Análisis de la evolución intra- e inter-sesión.
 
 Visualización mediante boxplots y representaciones comparativas.
 
-📝 Documentación interna
+📝 **Documentación interna**
 
 Un aspecto clave del repositorio es que cada función definida en ambos notebooks está documentada en una celda de Markdown individual dentro del propio archivo, siguiendo un formato homogéneo y explicativo.
 Esto permite:
@@ -39,7 +39,7 @@ Trazabilidad metodológica.
 
 Reproducibilidad del estudio.
 
-ℹ️ Notas adicionales
+ℹ️ **Notas adicionales**
 
 El código está orientado a un análisis exploratorio y cuantitativo, no a uso clínico directo.
 
